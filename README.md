@@ -15,16 +15,15 @@ Clone this repo to your local machine using https://github.com/fhugard/flussPred
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies.
 
-```bash
-...
-```
-
 ## Usage
-
-```bash
-...
+Set the parameters in main.py
+```python
+lstm(s_window=90, l_fwd=30, n_units=16, n_epochs=1, batch_size=32)
 ```
-
+Then run
+```bash
+main.py
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
